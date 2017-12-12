@@ -14,6 +14,7 @@
 		17D7F3411FD97EFB00F8A437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17D7F33F1FD97EFB00F8A437 /* LaunchScreen.storyboard */; };
 		17D7F34C1FD97EFB00F8A437 /* UserLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D7F34B1FD97EFB00F8A437 /* UserLocationTests.swift */; };
 		17D7F3571FD97EFB00F8A437 /* UserLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D7F3561FD97EFB00F8A437 /* UserLocationUITests.swift */; };
+		17D7F3661FD97F5800F8A437 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D7F3651FD97F5800F8A437 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		17D7F3521FD97EFB00F8A437 /* UserLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D7F3561FD97EFB00F8A437 /* UserLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationUITests.swift; sourceTree = "<group>"; };
 		17D7F3581FD97EFB00F8A437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D7F3651FD97F5800F8A437 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D7F3661FD97F5800F8A437 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				17D7F34A1FD97EFB00F8A437 /* UserLocationTests */,
 				17D7F3551FD97EFB00F8A437 /* UserLocationUITests */,
 				17D7F3341FD97EFB00F8A437 /* Products */,
+				17D7F3641FD97F5700F8A437 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				17D7F3581FD97EFB00F8A437 /* Info.plist */,
 			);
 			path = UserLocationUITests;
+			sourceTree = "<group>";
+		};
+		17D7F3641FD97F5700F8A437 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17D7F3651FD97F5800F8A437 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
